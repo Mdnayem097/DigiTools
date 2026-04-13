@@ -117,7 +117,7 @@ function App() {
             New: AI-Powered Tools Available
           </p>
           <h1 className="text-6xl font-semibold">
-            Supercharge Your Digital Workflow
+            Supercharge Your<span className="text-color-rgb"> Digital Workflow</span>
           </h1>
           <p className="text-[#627382]">
             Access premium AI tools, design assets, templates, and productivity
