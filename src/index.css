@@ -1,0 +1,9 @@
+.text-color-rgb {
+  background: linear-gradient(to right, #4f39f6, #9514fa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.bg-color-rgb{
+    background: linear-gradient(to right, #4f39f6, #9514fa);
+}

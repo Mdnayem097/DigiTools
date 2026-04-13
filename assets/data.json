@@ -1,0 +1,56 @@
+[
+  {
+    "key": 1,
+    "title": "AI Writing Pro",
+    "description": "Boost your writing speed with powerful AI tools and smart automation features",
+    "price": 60,
+    "badge": "Popular",
+    "logo": "/assets/products/writing_2327400 1.png",
+    "features": ["Smart AI Tools", "Auto Content Generate", "Commercial License"]
+  },
+  {
+    "key": 2,
+    "title": "Design Templates Pack",
+    "description": "Create stunning and professional designs easily using ready-made modern templates",
+    "price": 70,
+    "badge": "Best Seller",
+    "logo": "/assets/products/design-tool.png",
+    "features": ["2000+ Templates", "Monthly Updates", "Easy Customization"]
+  },
+  {
+    "key": 3,
+    "title": "Premium Stock Assets",
+    "description": "Access high quality images, videos, and assets for your creative projects",
+    "price": 80,
+    "badge": "New Arrival",
+    "logo": "/assets/products/operation.png",
+    "features": ["HD Images & Videos", "Unlimited Download", "Royalty Free"]
+  },
+  {
+    "key": 4,
+    "title": "Social Media Kit",
+    "description": "Grow your brand and online presence with ready-to-use social media designs",
+    "price": 55,
+    "badge": "Popular",
+    "logo": "/assets/products/social-media.png",
+    "features": ["Post Templates", "Story Designs", "Brand Ready"]
+  },
+  {
+    "key": 5,
+    "title": "Developer UI Bundle",
+    "description": "Build modern apps faster with clean UI components and reusable code blocks",
+    "price": 90,
+    "badge": "Best Seller",
+    "logo": "/assets/products/portfolio.png",
+    "features": ["React Components", "Tailwind UI", "Clean Code"]
+  },
+  {
+    "key": 6,
+    "title": "Ultimate Creative Suite",
+    "description": "Get everything you need in one package for design, development, and content creation",
+    "price": 100,
+    "badge": "New Arrival",
+    "logo": "/assets/package.png",
+    "features": ["All Assets Included", "Daily Updates", "Enterprise License"]
+  }
+]
