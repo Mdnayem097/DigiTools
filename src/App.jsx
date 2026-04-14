@@ -12,7 +12,7 @@ import Cart from "../assets/products/shopping-cart.png"
 import Package from "../assets/package.png"
 
 const getProducts = async () => {
-  const rec = await fetch("../public/data.json");
+  const rec = await fetch("/data.json");
   const data = await rec.json();
   return data;
 };
