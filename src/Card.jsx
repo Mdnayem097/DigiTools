@@ -1,4 +1,4 @@
-const card = ({ cart, setCart }) => {
+const Card = ({ cart, setCart }) => {
   const handleRemove = (id) => {
     const filtered = cart.filter((item) => item.key !== id);
     setCart(filtered);
@@ -39,4 +39,4 @@ const card = ({ cart, setCart }) => {
   );
 };
 
-export default card;
+export default Card;

@@ -1,7 +1,7 @@
 import { Suspense, useState } from "react";
 import "./App.css";
 import Products from "./Products";
-import Card from "./card";
+import Card from "./Card"
 import { ToastContainer } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
 import Banner from "../assets/banner.png";
