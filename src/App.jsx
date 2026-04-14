@@ -3,10 +3,16 @@ import "./App.css";
 import Products from "./Products";
 import Card from "./card";
 import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import "react-toastify/dist/ReactToastify.css";
+import Banner from "../assets/banner.png";
+import Play from "../assets/Play.png"
+import User from "../assets/user.png"
+import Rocket from "../assets/rocket.png"
+import Cart from "../assets/products/shopping-cart.png"
+import Package from "../assets/package.png"
 
 const getProducts = async () => {
-  const rec = await fetch("/assets/data.json");
+  const rec = await fetch("../public/data.json");
   const data = await rec.json();
   return data;
 };
@@ -96,7 +102,7 @@ function App() {
         </div>
         <div className="navbar-end gap-3">
           <div className="relative">
-            <img src="/assets/products/shopping-cart.png" />
+            <img src={Cart}/>
 
             {cart.length > 0 && (
               <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full px-1">
@@ -129,14 +135,14 @@ function App() {
               Explore Products
             </button>
             <button className="btn btn-soft btn-primary border-1 border-blue-900">
-              <img src="/assets/Play.png" />
+              <img src={Play} />
               Watch Demo
             </button>
             <button></button>
           </div>
         </div>
         <div className="order-1 md:order-2">
-          <img className="size-10/12 m-auto" src="/assets/banner.png" alt="" />
+          <img className="size-10/12 m-auto" src={Banner} alt="" />
         </div>
       </div>
 
@@ -195,7 +201,7 @@ function App() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-center">
           <div className="p-10">
-            <img className="m-auto" src="/assets/user.png" />
+            <img className="m-auto" src={User} />
             <p className="text-xl font-bold my-3">Create Account</p>
             <p className="text-[#627382]">
               Sign up for free in seconds. No credit card required to get
@@ -203,7 +209,7 @@ function App() {
             </p>
           </div>
           <div className="p-10">
-            <img className="m-auto" src="/assets/package.png" />
+            <img className="m-auto" src={Package}/>
             <p className="text-xl font-bold my-3">Create Account</p>
             <p className="text-[#627382]">
               Sign up for free in seconds. No credit card required to get
@@ -211,7 +217,7 @@ function App() {
             </p>
           </div>
           <div className="p-10">
-            <img className="m-auto" src="/assets/rocket.png" />
+            <img className="m-auto" src={Rocket}/>
             <p className="text-xl font-bold my-3">Create Account</p>
             <p className="text-[#627382]">
               Sign up for free in seconds. No credit card required to get
